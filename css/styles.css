@@ -33,80 +33,118 @@ body {
     top: 80px;
 }
 
+.triangle-wrapper {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    /*top: 138px;*/
+}
+
 .triangle {
     border-left: 15px solid #f4f4f4;
     border-top: 15px solid #886E9E;
     border-right: 15px solid #f4f4f4;
     display: inline-block;
     position: relative;
-    top: 125px;
-    left: 735px;
-
+    top: -60px;
 }
 
 .Opinion {
     font-size: 10px;
     color: #9FA2A2;
     text-align: center;
-
 }
 
-.line1{
+.line1 {
     height: 15px;
-    width:800px;
+    width: 800px;
     background-color: #FFAC02;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     top: 50px;
-    border-radius:20px;
+    border-radius: 20px;
     z-index: 1;
 }
 
-.line2{
+.line2 {
     height: 15px;
-    width:400px;
+    width: 400px;
     background-color: #D3D5D5;
     position: relative;
     top: 35px;
     left: 750px;
-    border-radius:50px;
+    border-radius: 50px;
     z-index: 2;
 }
 
-.circle{
+.circle {
     height: 26px;
-    width:26px;
+    width: 26px;
     background-color: #E89C00;
     position: relative;
     top: 15px;
     left: 740px;
-    border-radius:50px;
+    border-radius: 50px;
     z-index: 3;
 }
 
 .many {
     height: 500px;
-    width: 100%;
+    width: 810px;
     position: relative;
     top: 200px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.content{
-    text-align: center;
-    margin: 10px;
-    font-size: 30px;
+.first {
     display: inline-block;
-}
-.gray{
-    color: #D3D5D5;
-}
-.darkgray{
-    color: #ACAFAF;
+    width: 50px;
 }
 
+.fuck {
+    width: 50px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: -5px;
+}
+
+.seventh {
+    display: inline-block;
+    width: 50px;
+    position: relative;
+    top: -50px;
+}
+
+.der {
+    width: 50px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 5px;
+}
+
+.content {
+    width: 50px;
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.gray {
+    color: #D3D5D5;
+}
+
+.darkgray {
+    color: #ACAFAF;
+}
 
 .SendOpinion {
     font-size: 20px;
@@ -125,7 +163,6 @@ body {
     height: 400px;
     width: 100%;
     background-color: #AFAEAF;
-
 }
 
 .action {
@@ -153,16 +190,16 @@ body {
     padding: 10px;
     position: relative;
     top: 5px;
-    left:1000px;
-    
+    left: 1000px;
 }
 
-.leftp{
+.leftp {
     position: relative;
     top: 50px;
-    left: -150px;   
+    left: -150px;
 }
-.rightp{
+
+.rightp {
     position: relative;
     top: 50px;
     left: 1000px;
@@ -176,13 +213,11 @@ body {
     top: 100px;
 }
 
-
 .bottom {
     display: inline;
     position: relative;
-    top:80px;
+    top: 80px;
     left: 50px;
-    
 }
 
 .small {
@@ -191,13 +226,10 @@ body {
     position: relative;
     top: 55px;
     left: 150px;
-    
 }
-
 
 .g0v {
     position: relative;
-    top:30px;
+    top: 30px;
     left: 1300px;
-    
 }
